@@ -11,13 +11,12 @@ html {
 }
 
 
-
-
 @media (max-width: 800px) {
   html {
     font-size: 14px;
   }
 }
+
 
 body {
   font-size: 1rem;
@@ -27,16 +26,70 @@ body {
   letter-spacing: 0.045rem;
   margin: 0;
   padding: 1.3rem;
-  background: white;
+  background: cornflowerblue;
   overflow-x: hidden;
   width: 100%;
 }
 
-img {
-  width: 400px;
+.work-container {
+  padding-top: 4rem;
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
+  float: left;
+  display: block;
+  overflow: auto;
 
 }
+
+.small {
+  max-width: 40%;
+
+}
+
+.medium {
+      max-width: 60%;
+      z-index: 10;
+  }
+
+.large {
+  max-width: 100%;
+  z-index: 1;
+}
+
+/* @media (max-width: 800px) {
+  .work-container {
+    max-width: 80%;
+  }
+} */
+
+
+
+figure {
+  width: 500px;
+  display: block;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  figure {
+    max-width: 90%;
+    display: block;
+  }
+}
+
+.work {
+  float: left;
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .work {
+    max-width: 50%;
+  }
+}
+
 
 .text-frag {
   display: inline-block;
@@ -61,4 +114,14 @@ footer {
   position: fixed;
   bottom: 10px;
   width: 100%;
+}
+
+figcaption {
+  padding-top: 4px;
+}
+
+@media (max-width: 800px) {
+  figcaption {
+    max-width: 100%;
+  }
 }

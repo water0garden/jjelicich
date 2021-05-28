@@ -23,21 +23,89 @@ body {
   font-size: 1rem;
   line-height: 1.3;
   font-family: 'Dotum', 'SC Dream', Arial, sans-serif;
-  /* text-transform: uppercase; */
   letter-spacing: 0.045rem;
   margin: 0;
   padding: 1.3rem;
   background: white;
   overflow-x: hidden;
-  width: 100%;
 }
 
 img {
-  padding-top: 10px;
-  width: 400px;
-  margin: 0 auto;
-  display: block;
+width: 100%;
+}
 
+
+.canvas {
+  width: 600px;
+  height: 900px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.mainimage {
+  width: 500px;
+  height: 800px;
+  margin: 100px auto;
+  position: relative;
+  display: block;
+}
+
+.pop {
+  width: 70px;
+}
+
+#pop-holder {
+  /* opacity: 0; */
+  top: 150px;
+  left: 350px;
+  position: absolute;
+  margin: 100px auto;
+  z-index: 10;
+}
+
+#pop-box {
+  /* opacity: 0; */
+  top: 150px;
+  left: 220px;
+  margin: 100px auto;
+  position: absolute;
+  z-index: 10;
+}
+
+#pop-chair {
+  /* opacity: 0; */
+  top: 450px;
+  left: 340px;
+    margin: 100px auto;
+  position: absolute;
+  z-index: 10;
+}
+
+#pop-drawer {
+  /* opacity: 0; */
+  top: 250px;
+  left: 120px;
+    margin: 100px auto;
+  position: absolute;
+  z-index: 10;
+}
+
+#pop-spicerack {
+  /* opacity: 0; */
+  top: 20px;
+  left: 50px;
+  margin: 100px auto;
+  position: absolute;
+  z-index: 10;
+}
+
+#pop-stall {
+  /* opacity: 0; */
+  top: 400px;
+  left: 100px;
+  margin: 100px auto;
+  position: absolute;
+  z-index: 10;
 }
 
 .text-frag {

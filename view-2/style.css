@@ -11,13 +11,16 @@ html {
 }
 
 
-
-
 @media (max-width: 800px) {
   html {
     font-size: 14px;
   }
 }
+
+.clearfix {
+   overflow: auto;
+}
+
 
 body {
   font-size: 1rem;
@@ -28,18 +31,56 @@ body {
   margin: 0;
   padding: 1.3rem;
   background: white;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   width: 100%;
+  overflow: auto;
 }
 
- img {
-  padding-top: 20px;
-  width: 500px;
+.work-container {
+  padding-top: 4rem;
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
-  display: inline-block;
-  padding-right: 2px
+  float: left;
+  display: block;
+  overflow: auto;
+
 
 }
+
+/* @media (max-width: 800px) {
+  .work-container {
+    max-width: 80%;
+  }
+} */
+
+
+
+img {
+  width: 600px;
+  display: block;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 90%;
+    display: block;
+  }
+}
+
+.work {
+  float: left;
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .work {
+    max-width: 50%;
+  }
+}
+
 
 .text-frag {
   display: inline-block;
@@ -59,27 +100,19 @@ display: inline-block;
 a:active { color: forestgreen;}
 a:hover { color: lavender;}
 
-footer {
+/* footer {
   border-top: 1px;
   position: fixed;
   bottom: 10px;
   width: 100%;
-}
-
-
-.work-container {
-  padding-top: 20px;
-  max-width: 100%;
-  margin: 0 auto;
-  width: 100%;
-  display: block;
-}
-
-/* figure {
-
-  margin: 0 auto;
-  width: 100%;
-  display: inline-block;
-  position: relative;
-  float: left;
 } */
+
+figcaption {
+  padding-top: 4px;
+}
+
+@media (max-width: 800px) {
+  figcaption {
+    max-width: 100%;
+  }
+}
