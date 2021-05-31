@@ -92,10 +92,18 @@ figure {
 
 @media (max-width: 800px) {
   figure {
-    max-width: 90%;
+    max-width: 100%;
     display: block;
   }
 }
+
+
+@media (max-width: 800px) {
+  img {
+    width: 100%;
+  }
+}
+
 
 .work {
   float: left;
