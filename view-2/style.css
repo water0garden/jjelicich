@@ -85,8 +85,8 @@ button{
 
 
 @media (max-width: 800px) {
-  img {
-    max-width: 100%;
+  figure {
+    width: 100%;
     display: block;
   }
 }
@@ -94,12 +94,12 @@ button{
 .work {
   float: left;
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 800px) {
   .work {
-    max-width: 50%;
+  width: 50%;
   }
 }
 
@@ -135,7 +135,7 @@ figcaption {
 
 @media (max-width: 800px) {
   figcaption {
-    max-width: 100%;
+    width: 100%;
   }
 }
 

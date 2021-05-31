@@ -54,6 +54,15 @@ button{
   position: relative;
 }
 
+@media (max-width: 800px) {
+  .canvas {
+    width: 70%;
+    height: 90%;
+    margin: 100px auto;
+  }
+}
+
+
 .mainimage {
   width: 500px;
   height: 800px;
@@ -65,8 +74,7 @@ button{
 
 @media (max-width: 800px) {
   .mainimage {
-    
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -79,7 +87,8 @@ button{
 
 @media (max-width: 800px) {
   .pop {
-    width: 30%;
+    width: 10%;
+
   }
 }
 
