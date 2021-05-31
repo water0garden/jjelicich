@@ -65,21 +65,22 @@ button{
 
 @media (max-width: 800px) {
   .mainimage {
-    width: 50%;
+    
+    width: 80%;
   }
 }
 
-@media (max-width: 800px) {
-  .pop {
-    max-width: 30%;
-  }
-}
+
 
 
 .pop {
   width: 90px;
+}
 
-
+@media (max-width: 800px) {
+  .pop {
+    width: 30%;
+  }
 }
 
 #pop-holder {
