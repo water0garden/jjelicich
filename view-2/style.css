@@ -91,6 +91,7 @@ button{
   }
 }
 
+
 .work {
   float: left;
   display: block;
@@ -99,9 +100,10 @@ button{
 
 @media (max-width: 800px) {
   .work {
-  width: 50%;
+    max-width: 50%;
   }
 }
+
 
 
 .text-frag {
