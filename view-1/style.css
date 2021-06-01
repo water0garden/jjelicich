@@ -25,7 +25,7 @@ body {
   letter-spacing: 0.045rem;
   margin: 0;
   padding: 1.3rem;
-  background: cornflowerblue;
+  background: DarkSeaGreen;
   overflow-x: hidden;
   width: 100%;
 }
@@ -111,11 +111,6 @@ figure {
 }
 
 
-.text-frag {
-  display: inline-block;
-  margin-right: 3ch;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -146,10 +141,20 @@ figcaption {
   }
 }
 
+.text-frag {
+  display: inline-block;
+  margin-right: 3ch;
+}
+
+@media (max-width: 800px) {
+  .text-frag {
+    margin-right: 2ch;
+  }
+}
 
 
 
-button{
+button {
   background-color: transparent;
   padding: 0;
   font-size: 1rem;
@@ -164,7 +169,7 @@ button{
 .navbar {
   display: inline-block;
   margin-right: 3ch;
-color: black;
+  color: black;
   font-family: 'Dotum', 'SC Dream', Arial, sans-serif;
 }
 

@@ -27,8 +27,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
       channel.contents = data.contents.reverse();
       channel.url = 'https://are.na/' + data.user.slug + '/' + data.slug + '/';
 
+
+
       console.log(data);
       // console.log(channel);
+
+
 
       if (data.metadata !== null) {
         var channelDescription = data.metadata.description;

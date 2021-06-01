@@ -104,12 +104,6 @@ figure {
   }
 }
 
-
-.text-frag {
-  display: inline-block;
-  margin-right: 3ch;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -140,6 +134,16 @@ figcaption {
   }
 }
 
+.text-frag {
+  display: inline-block;
+  margin-right: 3ch;
+}
+
+@media (max-width: 800px) {
+  .text-frag {
+    margin-right: 2ch;
+  }
+}
 
 
 .navbar {
