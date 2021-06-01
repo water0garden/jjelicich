@@ -87,15 +87,15 @@ button{
 
 @media (max-width: 800px) {
   .pop {
-    width: 15%;
+    width: 10%;
 
   }
 }
 
 #pop-holder {
 opacity: 20%;
-  top: 150px;
-  left: 350px;
+  top: 120px;
+  left: 340px;
   position: absolute;
   margin: 100px auto;
   z-index: 10;
@@ -106,7 +106,7 @@ opacity: 20%;
 
 #pop-box {
 opacity: 20%;
-  top: 150px;
+  top: 170px;
   left: 220px;
   margin: 100px auto;
   position: absolute;
@@ -131,7 +131,7 @@ opacity: 20%;
 #pop-drawer {
 
   opacity: 10%;
-  top: 150px;
+  top: 140px;
   left: 100px;
   margin: 100px auto;
   position: absolute;
