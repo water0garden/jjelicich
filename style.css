@@ -90,6 +90,7 @@ img {
 
 .pop {
   width: 90px;
+  opacity: 20%;
 }
 
 @media (max-width: 800px) {
@@ -98,8 +99,14 @@ img {
   }
 }
 
+.pop:hover,
+.popischanging {
+  opacity: 100%;
+}
+
+
 #pop-holder {
-opacity: 20%;
+
   top: 100px;
   left: 290px;
   position: absolute;
@@ -111,7 +118,7 @@ opacity: 20%;
 }
 
 #pop-box {
-opacity: 20%;
+
   top: 190px;
   left: 220px;
   margin: 100px auto;
@@ -123,7 +130,7 @@ opacity: 20%;
 }
 
 #pop-chair {
-  opacity: 20%;
+
   top: 420px;
   left: 340px;
     margin: 100px auto;
@@ -134,7 +141,7 @@ opacity: 20%;
 }
 
 #pop-drawer {
-  opacity: 10%;
+
   top: 140px;
   left: 100px;
   margin: 100px auto;
@@ -145,7 +152,7 @@ opacity: 20%;
 }
 
 #pop-spicerack {
-  opacity: 20%;
+
   top: 10px;
   left: 30px;
   margin: 100px auto;
@@ -156,7 +163,7 @@ opacity: 20%;
 }
 
 #pop-stall {
-  opacity: 20%;
+  /* opacity: 20%; */
   top: 330px;
   left: 100px;
   margin: 100px auto;
@@ -166,27 +173,12 @@ opacity: 20%;
   animation-iteration-count: infinite;
 }
 
+
+
 #pop-spicerack:active {
     animation: shake 0.5s;
     animation-iteration-count: infinite;}
 
-#pop-spicerack:hover { opacity: 100%;
-}
-
-#pop-drawer:hover { opacity: 100%;
-}
-
-#pop-holder:hover { opacity: 100%;
-}
-
-#pop-box:hover { opacity: 100%;
-}
-
-#pop-stall:hover { opacity: 100%;
-}
-
-#pop-spicerack, #pop-drawer, #pop-holder, #pop-box, #pop-stall {
-}
 
 /* @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }

@@ -7,26 +7,32 @@ document.addEventListener("DOMContentLoaded", function(event) {
   function change() {
 
       //Collect all images with class 'slides'
-      var x = document.getElementsByClassName('pop');
+      var pops = document.querySelectorAll('.pop');
+      var popCurrent = document.querySelector('.popischanging');
 
-      //Set all the images display to 'none' (invisible)
-      for(var i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
+      console.log(popCurrent);
+
+      if (popCurrent != null) {
+        popCurrent.classList.remove('popischanging');
       }
 
       //Increment index variable
       index++;
 
       //Set index to 1 if it's greater than the amount of images
-      if(index > x.length) {
+      if(index > pops.length) {
           index = 1;
       }
 
       //set image display to 'block' (visible)
-      x[index - 1].style.display = "block";
+      pops[index - 1].classList.add('popischanging');
+
+
 
       //set loop to change image every 3000 milliseconds (3 seconds)
       setTimeout(change, 3000);
-    }
 
-  })
+
+  }
+
+})
